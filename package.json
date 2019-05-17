@@ -1,10 +1,14 @@
 {
-  "name": "knight-lib",
+  "name": "@testreact3000/knight-lib",
   "version": "1.0.0",
   "description": "Library for knight test task",
   "main": "knight.js",
   "directories": {
     "lib": "lib"
+  },
+  "repository": "git://github.com/testreact3000/knight-lib.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
